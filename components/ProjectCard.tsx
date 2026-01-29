@@ -1,12 +1,12 @@
 type Project = {
-  id: string;
-  name: string;
-  description: string;
-  liveUrl: string | null;
-  githubFrontend: string | null;
-  githubBackend: string | null;
-  highlights: string[];
-  techStack: string[];
+  readonly id: string;
+  readonly name: string;
+  readonly description: string;
+  readonly liveUrl: string | null;
+  readonly githubFrontend: string | null;
+  readonly githubBackend: string | null;
+  readonly highlights: readonly string[];
+  readonly techStack: readonly string[];
 };
 
 function LinkItem({

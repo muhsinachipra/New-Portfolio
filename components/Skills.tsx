@@ -22,7 +22,7 @@ export function Skills() {
             </h3>
             <div className="flex flex-wrap gap-1.5">
               {keys.flatMap((k) =>
-                (resume.skills[k] as string[]).map((s) => (
+                (resume.skills[k] as readonly string[]).map((s) => (
                   <span
                     key={s}
                     className="rounded bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"

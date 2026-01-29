@@ -3,22 +3,24 @@
 import { useState } from "react";
 
 type Project = {
-  name: string;
-  isLeadership?: boolean;
-  leadershipTag?: string;
-  leadershipNote?: string;
-  performanceBoost?: boolean;
-  performanceLabel?: string;
-  achievements: string[];
+  readonly name: string;
+  readonly isLeadership?: boolean;
+  readonly leadershipTag?: string;
+  readonly leadershipNote?: string;
+  readonly performanceBoost?: boolean;
+  readonly performanceLabel?: string;
+  readonly achievements: readonly string[];
 };
 
 type Experience = {
-  company: string;
-  location: string;
-  title: string;
-  period: string;
-  projects: Project[];
-  shared: string[];
+  readonly id: string;
+  readonly company: string;
+  readonly location: string;
+  readonly title: string;
+  readonly period: string;
+  readonly isLeadership: boolean;
+  readonly projects: readonly Project[];
+  readonly shared: readonly string[];
 };
 
 export function ExperienceItem({ experience }: { experience: Experience }) {
