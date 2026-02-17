@@ -21,7 +21,7 @@ export const resume = {
       company: "Zoptal Solutions Pvt. Ltd",
       location: "Punjab",
       title: "Full Stack Developer",
-      period: "02/2025 – 10/2025",
+      period: "Feb 2025 – Oct 2025",
       isLeadership: false,
       projects: [
         {
@@ -78,10 +78,16 @@ export const resume = {
       company: "Brototype",
       location: "Kerala",
       title: "MERN Stack Developer",
-      period: "07/2023 – 02/2025",
+      period: "Jul 2023 – Feb 2025",
       isLeadership: false,
       projects: [],
-      shared: [],
+      shared: [
+        "Mastered the MERN stack (MongoDB, Express, React, Node.js) through independent, documentation-driven learning.",
+        "Built two full-stack projects from scratch with real-time communication, third-party APIs, and secure payments using Clean Architecture and MVC.",
+        "Implemented Dockerization, AWS hosting, and reverse proxy configuration for scalable production deployments.",
+        "Participated in weekly code reviews with senior engineers (4+ years experience), focusing on Clean Code and RESTful APIs.",
+        "Led a communication team of 20+ members, running weekly meetings and workshops to improve professional communication.",
+      ],
     },
   ],
 
@@ -158,6 +164,7 @@ export const resume = {
     ],
     frameworks: [
       "React.js",
+      "Next.js",
       "Redux",
       "Express.js",
       "Socket.IO",
@@ -169,11 +176,13 @@ export const resume = {
       "Formik",
       "JWT",
       "Stripe",
+      "Razorpay",
+      "Google Play",
+      "Apple Pay",
       "Nodemailer",
       "Nest.js",
       "bcrypt.js",
       "Mongoose",
-      "Razorpay",
       "ZegoCloud",
     ],
     databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
@@ -215,9 +224,18 @@ export const resume = {
     { name: "NGINX", label: "NGINX" },
     { name: "Docker", label: "Docker" },
     { name: "PM2", label: "PM2" },
+    { name: "Kubernetes", label: "Kubernetes" },
+    { name: "Firebase", label: "Firebase" },
+    { name: "GCP", label: "Google Cloud Platform" },
   ],
 
   certifications: [
+    {
+      name: "Kubernetes Training for Beginner",
+      issuer: "Simplilearn via Coursera",
+      url: "https://www.coursera.org/",
+      description: "Container orchestration and Kubernetes fundamentals.",
+    },
     {
       name: "AWS Certified Cloud Practitioner (CLF-C02) Cert Prep: 1 Cloud Concepts",
       issuer: "LinkedIn Learning",
